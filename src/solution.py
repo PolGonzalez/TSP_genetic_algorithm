@@ -39,7 +39,7 @@ class Solution:
 
     def save(self):
         timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-        with open(f"../solution_{timestamp}.txt", 'w') as f:
+        with open(f"../solution/solution_{timestamp}.txt", 'w') as f:
             f.write(str(self.tsp_cost()) + "\n")
             for i in self.path:
                 f.write(str(i) + "\n")
