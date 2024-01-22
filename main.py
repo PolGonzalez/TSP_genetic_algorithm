@@ -9,7 +9,7 @@ if __name__ == '__main__':
     profiler.start()
 
     # Read config.yaml
-    with open("../config.yaml", 'r') as stream:
+    with open("config.yaml", 'r') as stream:
         config = yaml.safe_load(stream)
 
     instance = Instance()
