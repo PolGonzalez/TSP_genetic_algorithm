@@ -18,7 +18,7 @@ if __name__ == '__main__':
     ga = GA(instance, ga_config)
 
     best_solution = ga.run()
-    best_solution.save()
-
+    #best_solution.save()
+    print(best_solution)
     profiler.stop()
     print(profiler.output_text(unicode=True, color=True))
