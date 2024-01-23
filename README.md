@@ -1,6 +1,7 @@
 # TSP_genetic_algorithm
 
-This is a project of the course ... at uni ..
+This is a project of the course methods and models of operations research at uni UPC.
+It implements a genetic algorithm to solve the TSP problem.
 
 ### Getting started
 
